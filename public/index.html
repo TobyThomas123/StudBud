@@ -1,4 +1,114 @@
-<h1> "I really hope that this is working"</h1>
-    <p> "It is very  complicated"</p>
+<!DOCTYPE html>
+<html>
 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>StudBud</title>
+	<link rel="icon" href='../studbud.png'>
+
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- <link href="main.scss" /> -->
+</head>
+
+<body>
+
+	<!-- background -->
+	<div class="background">
+	</div>
+
+  <div class="container">
+    <nav class="Header"></nav>
+
+
+  <!-- navigation bar-->
+  <nav class="navbar">
+    <div class="logo-image">
+      <a href="index.html">
+        <img src="../studbud.png" class="img-fluid">
+      </a>
+    </div>
+
+        <div class="navigation-content">
+          <a href="calendar.html"><br>Calendar</a>
+          <a href="todolist.html"><br>To-Do List</a>
+          <a href="timer.html"><br>Timer</a>
+          <a href="Music.html"><br>Music</a>
+          </div>
+        </div>
+  </nav>
+
+        
+
+     
+  <!-- main information box -->
+  <main class="Main">
+    <section class="contact-section">
+      <div class="contact_information">
+        <h1 style="text-align:center"><strong> Contact us</strong></h1>
+        <h2>
+          <p>
+          Address: 94 Darkes Road, Kembla Grange 2526 N.S.W
+          </p>
+          <p>
+          Tel. No. and Fax: (02) 4261 4100
+          </p>
+          <p>
+          Email: admin@motorlifemuseum.com
+          </p>
+          <p>
+          Social: <a href="https://www.facebook.com/TheAustralianMotorMuseum">Facebook</a>
+          </p>
+        </h2>
+      </div>
+       
+       <!-- Contact us form -->
+       <div class="container-contact">
+        <div class="wrap-contact">
+
+          <form name="contact" class="contact-form validate-form" method="post" action= "contact-form-handler.php">
+
+            <div class="wrap-input validate-input" data-validate="Please enter your name">
+              <input class="input" type="text" name="name" placeholder="Full Name">
+            </div>
+
+            <div class="wrap-input validate-input" data-validate = "Please enter your email">
+              <input class="input" type="text" name="email" placeholder="Email">
+              <input id="email" name="email" type="email" required>
+            </div>
+
+            <div class="wrap-input validate-input" data-validate = "Please enter your message">
+              <textarea class="input" type="text" name="message" placeholder="Message"></textarea>
+            </div>
+
+            <div class="container-contact-form-btn">
+              <button type="button" class="contact-form-btn">
+                <span>Send</span>
+              </button>
+            </div>
+
+
+          </form>
+      
+      
+      
+        
+        </div>
+      
+      </div>
+
+    <!-- Google map -->
+      <div class="map-responsive">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3288.953742874005!2d150.794515!3d-34.4786977!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b1311b22871d0d5%3A0xfe93a05a0669d0f!2sThe%20Australian%20Motorlife%20Museum!5e0!3m2!1sen!2sau!4v1637280194546!5m2!1sen!2sau"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      </div>
+    </section>
+      
+      
+     
+    </div>
+  </main>
+  </body>
+</html>
 <!-- //remember to link to main.scss// -->
