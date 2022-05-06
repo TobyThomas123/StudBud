@@ -36,7 +36,7 @@ html, body , .container {
 .button {
   fill: #212020;
   height: 50px;
-  border: white;
+  border: black;
 }
 
 h1 {
@@ -60,7 +60,7 @@ h4 {
 
 h5 {
   font-size: 5vw;
-  color: white;
+  color: black;
   /* https://www.w3schools.com/cssref/css_units.asp */
 }
 
@@ -89,29 +89,6 @@ p {
 
 
 
-
-
-
-
-/* LIBRARY TABLE */
-
-.table {
-  border: none;
-  border-collapse: collapse;
-  width: 100%;
-  font-size: 30px;
-}
-
-.th, td {
-  text-align: left;
-  padding: 8px;
-}
-
-.thead {
-  background-color: none;
-}
-
-.tr:nth-child(odd) {background-color: #6F716F;}
 
 
 
@@ -217,7 +194,7 @@ p {
 .checkbox-round {
   width: 1.8em;
   height: 1.8em;
-  background-color: white;
+  background-color: black;
   border-radius: 50%;
   vertical-align: middle;
   border: 1px solid #ddd;
@@ -244,7 +221,7 @@ p {
 
 .searchTerm {
   width: 100%;
-  border: 3px solid white;
+  border: 3px solid black;
   border-right: none;
   padding: 5px;
   height: 20px;
@@ -260,7 +237,7 @@ p {
 .searchButton {
   width: 40px;
   height: 36px;
-  border: 1px solid white;
+  border: 1px solid black;
   background: gray;
   text-align: center;
   color: black;
@@ -356,7 +333,7 @@ textarea:-ms-input-placeholder { color: #bdbdd3;}
 
 .wrap-input {
   width: 100%;
-  background-color: #fff;
+  background-color: black;
   border-radius: 7px;
   margin-left: auto;
   margin-right: auto;
@@ -370,7 +347,7 @@ textarea:-ms-input-placeholder { color: #bdbdd3;}
   position: relative;
   display: block;
   width: auto;
-  background: #fff;
+  background: black;
   border-radius: 20px;
   color: #212020;
   line-height: 1.2;
@@ -421,7 +398,7 @@ textarea.input {
 
   font-family: "Lato";
   font-size: 16px;
-  color: #fff;
+  color: black;
   line-height: 1.2;
   text-transform: uppercase;
 
@@ -496,8 +473,8 @@ textarea.input {
 .information {
   text-align: center;
   background-color: #212020;
-  color: white;
-  text-decoration-color: white;
+  color: black;
+  text-decoration-color: black;
   top: 20%;
   left: 10%;
   position: absolute;
@@ -513,8 +490,8 @@ textarea.input {
 .about_information {
   text-align: center;
   background-color: #212020;
-  color: white;
-  text-decoration-color: white;
+  color: black;
+  text-decoration-color: black;
   top: 30%;
   left: 5%;
   position: absolute;
@@ -530,8 +507,8 @@ textarea.input {
 .contact_information {
   text-align: center;
   background-color: #212020;
-  color: white;
-  text-decoration-color: white;
+  color: black;
+  text-decoration-color: black;
   /* top: 30%;
   left: 5%; */
   /* position: absolute; */
@@ -548,8 +525,8 @@ textarea.input {
 .volunteer_information {
   text-align: center;
   background-color: #212020;
-  color: white;
-  text-decoration-color: white;
+  color: black;
+  text-decoration-color: black;
   /* top: 30%;
   left: 5%; */
   /* position: absolute; */
@@ -566,8 +543,8 @@ textarea.input {
 .volunteer_donate {
   text-align: center;
   background-color: #212020;
-  color: white;
-  text-decoration-color: white;
+  color: black;
+  text-decoration-color: black;
   /* top: 30%;
   right: 5%;
   position: absolute; */
@@ -582,8 +559,8 @@ textarea.input {
 
 .library {
   background-color: #212020;
-  color: white;
-  text-decoration-color: white;
+  color: black;
+  text-decoration-color: black;
   left: 5%;
   right: 5%;
   display: flex;
@@ -619,7 +596,7 @@ textarea.input {
 
   font-family: "Lato";
   font-size: 16px;
-  color: #fff;
+  color: black;
   line-height: 1.2;
   text-transform: uppercase;
 }
@@ -640,8 +617,8 @@ textarea.input {
 
 
 .library-title {
-  color: white;
-  text-decoration-color: white;
+  color: black;
+  text-decoration-color: black;
   top: 15%;
   left: 5%;
   right: 5%;
@@ -672,7 +649,7 @@ textarea.input {
 .entries {
   /* display: flex; */
   /* justify-self: start; */
-  text-decoration-color: white;
+  text-decoration-color: black;
   top: 20%;
   margin: auto;
   position: absolute;
@@ -794,9 +771,9 @@ textarea.input {
 
 .logo-image img{
   float: left;
-  width: 175px;
-  padding-top: 10px;
-  padding-left: 30px;
+  width: 300px;
+  padding-top: 30px;
+  padding-left: 20px;
   padding-right: 50px;
   height: auto;
 }
@@ -821,7 +798,7 @@ textarea.input {
   float: left;
   font-size: 30px;
   font-weight: 500;
-  color: white;
+  color: black;
   text-align: center;
   padding-left: 75px;
   text-decoration: none;
@@ -830,7 +807,7 @@ textarea.input {
 
 .navigation-content {
   padding: auto;
-  fill: #cccccc;
+  fill: #000000;
 }
 
 .nav:hover {
@@ -862,7 +839,7 @@ nav.navbar .navigation-content a {
 }
 
 .banner-text {
-  color: white;
+  color: black;
   position: absolute;
   transform: translate(40%, -83%);
   text-align: center;
@@ -872,7 +849,7 @@ nav.navbar .navigation-content a {
  display: none;
 }
 
-.contact-section {
+.timing-section {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -924,8 +901,8 @@ nav.navbar .navigation-content a {
 
   .library {
     background-color: #212020;
-    color: white;
-    text-decoration-color: white;
+    color: black;
+    text-decoration-color: black;
     top: 28%;
     margin: 0 0%;
 
@@ -940,12 +917,7 @@ nav.navbar .navigation-content a {
   }
 
 
-  .library-title {
-    left: 0%;
-    margin-top: 10%;
-    right: auto;
- 
-  }
+
 
   .library {
     margin-top: 30%;
@@ -973,7 +945,7 @@ nav.navbar .navigation-content a {
 
   .searchTerm {
     width: 100%;
-    border: 3px solid white;
+    border: 3px solid black;
     border-right: none;
     padding: 5px;
     height: 20px;
@@ -989,7 +961,7 @@ nav.navbar .navigation-content a {
   .searchButton {
     width: 40px;
     height: 36px;
-    border: 1px solid white;
+    border: 1px solid black;
     background: gray;
     text-align: center;
     color: black;
@@ -1006,56 +978,11 @@ nav.navbar .navigation-content a {
     transform: translate(-50%, -50%);
   }
 
-  /* Donate and volunteer page */
-
-  .donate-section {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  flex-wrap: wrap;
-  }
-
-  .responsive-images {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin:  5% 0;
-  }
-
-  .image1-responsive img{
-    height: auto;
-    border-radius: 8px;
-    width: 90%;
-    margin: 0 5%;
-    position:relative;
-  }
-
-  .image2-responsive img{
-    height: auto;
-    border-radius: 8px;
-    width: 90%;
-    margin: 0 5%;
-    margin-top: 5%;
-    position:relative;
-  }
-/* 
-  Background image sizes */
-
-  .background-volunteer {
-    height: 215%;
-  }
-
-  .background-library{
-    height: 140%;
-  }
-
-  .background-contact {
-    height: 150%;
-  }
+ 
 
   /* Contact page  */
 
-  .contact-section {
+  .timing-section {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -1065,8 +992,8 @@ nav.navbar .navigation-content a {
   .contact_information {
     text-align: center;
     background-color: #212020;
-    color: white;
-    text-decoration-color: white;
+    color: black;
+    text-decoration-color: black;
     /* top: 30%;
     left: 5%; */
     /* position: absolute; */
@@ -1127,8 +1054,8 @@ nav.navbar .navigation-content a {
     text-align: center;
     font-size: 1.8vh;
     background-color: #212020;
-    color: white;
-    text-decoration-color: white;
+    color: black;
+    text-decoration-color: black;
     top: 25%;
     left: auto;
     margin: 5%;
@@ -1224,8 +1151,8 @@ nav.navbar .navigation-content a {
 
   .information {
     background-color: #212020;
-    color: white;
-    text-decoration-color: white;
+    color: rgb(0, 0, 0);
+    text-decoration-color: black;
     top:35%;
     margin: auto;
     width: 90%;
@@ -1253,7 +1180,7 @@ nav.navbar .navigation-content a {
 
   .navbar a {
     font-size: 30px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: justify;
     padding-left: 10%;
     text-decoration: none;
@@ -1302,7 +1229,7 @@ nav.navbar .navigation-content a {
 
 
   .banner-text-mobile {
-    color: white;
+    color: black;
     position: absolute;
     transform: translate(40%, -70%);
     text-align: center;
@@ -1355,8 +1282,8 @@ nav.navbar .navigation-content a {
     text-align: center;
     font-size: 1.8vh;
     background-color: #212020;
-    color: white;
-    text-decoration-color: white;
+    color: black;
+    text-decoration-color: black;
     top: 30%;
     left: auto;
     margin: 2%;
@@ -1371,79 +1298,6 @@ nav.navbar .navigation-content a {
 
   }
 
-  /* Background image sizes */
-
-  .background-contact {
-    height: 150%;
-  }
-
-  .background-about {
-    height: 230%;
-  }
-
-  .background-events {
-    height: 190%;
-  }
-
-  .background-volunteer {
-    height: 240%;
-  }
-
-  .background-library {
-    height: 160%;
-  }
-
-  .donate-download { 
-    display:none;
-  }
-  .download-button {
-    display: none;
-  }
-
-  /* Responsive images, video, map */
-
-  .video{
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
-    top: 180%;
-    width: 90%;
-    right: 5%;
-    margin: auto;
-    height: 20vh;
-  }
-  
-  .inset_1 {
-    top: 160%;
-    display: flex;
-    justify-content: center;
-    /* background-color: transparent; */
-    width: 90%;
-    right: auto;
-    margin: 5%;
-    height: auto;
-  }
-
-  .inset_1-1 {
-    top: 160%;
-    display: flex;
-    justify-content: center;
-    /* background-color: transparent; */
-    width: 90%;
-    right: auto;
-    margin: 5%;
-    height: auto;
-  }
-  .inset_2 {
-    top: 130%;
-    display: flex;
-    right: auto;
-    margin: 5%;
-    position: absolute;
-    width: 90%;
-    height: auto;
-    border-radius: 20px;
-  }
 
   /* Navigational content */
   
@@ -1471,7 +1325,7 @@ nav.navbar .navigation-content a {
   .navbar a {
     float: left;
     font-size: 30px;
-    color: white;
+    color: black;
     text-align: justify;
     padding-left: 5%;
     text-decoration: none;
@@ -1507,8 +1361,8 @@ nav.navbar .navigation-content a {
   .information {
     text-align: justify;
     background-color: #212020;
-    color: white;
-    text-decoration-color: white;
+    color: black;
+    text-decoration-color: black;
     top: 35%;
     position: absolute;
     margin: auto;
@@ -1523,4 +1377,109 @@ nav.navbar .navigation-content a {
     opacity: 90%;
     overflow: visible;
   }
+
+html {
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #444;
+}
+
+body {
+  margin: 0;
+  background: #504f4f;
+  font-size: 1em;
+}
+
+.wrapper {
+  margin: 15px auto;
+  max-width: 1100px;
+}
+
+.container-calendar {
+  background: #fff;
+  padding: 15px;
+  max-width: 475px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.button-container-calendar button {
+  cursor: pointer;
+  display: inline-block;
+  zoom: 1;
+  background: #00a2b7;
+  color: #fff;
+  border: 1px solid #0aa2b5;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.table-calendar {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-calendar td, .table-calendar th {
+  padding: 5px;
+  border: 1px solid #e2e2e2;
+  text-align: center;
+  vertical-align: top;
+}
+
+.date-picker.selected {
+  font-weight: bold;
+  outline: 1px dashed #00BCD4;
+}
+
+.date-picker.selected span {
+  border-bottom: 2px solid currentColor;
+}
+
+/* sunday */
+.date-picker:nth-child(1) {
+color: red;
+}
+
+/* friday */
+.date-picker:nth-child(6) {
+color: green;
+}
+
+#monthAndYear {
+  text-align: center;
+  margin-top: 0;
+}
+
+.button-container-calendar {
+  position: relative;
+  margin-bottom: 1em;
+  overflow: hidden;
+  clear: both;
+}
+
+#previous {
+  float: left;
+}
+
+#next {
+  float: right;
+}
+
+.footer-container-calendar {
+  margin-top: 1em;
+  border-top: 1px solid #dadada;
+  padding: 10px 0;
+}
+
+.footer-container-calendar select {
+  cursor: pointer;
+  display: inline-block;
+  zoom: 1;
+  background: #fff;
+  color: #585858;
+  border: 1px solid #bfc5c5;
+  border-radius: 3px;
+  padding: 5px 1em;
+}
 }
