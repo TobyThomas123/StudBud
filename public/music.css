@@ -6,6 +6,53 @@
   grid-area: Main;
   margin-top: 200px;
 }
+
+
+/* DICTIONARY */
+body {
+  margin: 0;
+  padding: 0;
+}
+.dictionary {
+  background: #0000;
+  color: #fff;
+  max-width: 400px;
+  min-height: 15vh;
+}
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+.txtBox {
+  appearance: none;
+  -webkit-appearance:none;
+  font-size:16px;
+  padding: 15px;
+  width:100%;
+}
+.submit-btn {
+  appearance: none;
+  -webkit-appearance:none;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: grey;
+  color: #fff;
+  font-size: 15px;
+  height: 100%;
+}
+form {
+  position: relative;
+}
+.search-result{
+  padding:20px;
+}
+.search-word{
+  font-style:italic;
+}
+
+
 /* MUSIC PLAYER */
 body {
   background-color: lightgreen;
@@ -839,11 +886,6 @@ html, body , .container {
   }
   
   
-  
-  
-  
-  
-  
   .library-title {
     color: black;
     text-decoration-color: black;
@@ -887,8 +929,6 @@ html, body , .container {
     padding-left: 40px;
     padding-right: 40px;
   }
-  
-  
   
   
   
@@ -1100,20 +1140,6 @@ html, body , .container {
     display: flex;
     margin-top: 10%
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   @media all and (max-width: 700px){
@@ -1402,11 +1428,6 @@ html, body , .container {
     
   
   }
-  
-  
-  
-  
-  
   
   
   @media all and (max-width: 450px){

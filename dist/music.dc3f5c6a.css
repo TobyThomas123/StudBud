@@ -9,6 +9,54 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
+}
+
+.dictionary {
+  color: #fff;
+  max-width: 400px;
+  min-height: 15vh;
+  background: none;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.txtBox {
+  appearance: none;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  appearance: none;
+  color: #fff;
+  height: 100%;
+  background: gray;
+  padding: 15px;
+  font-size: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+form {
+  position: relative;
+}
+
+.search-result {
+  padding: 20px;
+}
+
+.search-word {
+  font-style: italic;
+}
+
+body {
   background-color: #90ee90;
   transition: background-color .5s;
 }
