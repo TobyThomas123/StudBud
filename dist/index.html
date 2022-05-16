@@ -7,7 +7,7 @@
 	<title>StudBud</title>
 	<link rel="icon" href="/studbud.6a2a183f.png">
 
-	<link href="/music.dc3f5c6a.css" rel="stylesheet" type="text/css">
+	<link href="/music.c180ac0f.css" rel="stylesheet" type="text/css">
 	<!-- <link href="main.scss" /> -->
 </head>
 
@@ -24,21 +24,20 @@
   <!-- navigation bar-->
   <nav class="navbar">
     <div class="logo-image">
-      <a href="/index.html">
+      <dictionary-a href="index.html">
         <img src="/studbud.6a2a183f.png" class="img-fluid">
-      </a>
+      </dictionary-a>
     </div>
-    <div class="dictionary">
-      <h1>Dictionary</h1>
-     <form class="searchForm">
-     <input type="search" class="txtBox">
-     <input type="submit" class="submit-btn" value="submit">
-     </form>
-      <div class="search-result">
-     <h2 class="search-word"></h2>
-     <p class="description"></p>
-       </div>
-       </div>
+    <div class="dictionary-wrapper">
+      <audio id="sound"></audio>
+      <div class="dictionary-container">
+        <div class="search-box">
+          <input type="text" placeholder="Type the word here..." id="inp-word">
+          <button id="search-btn">Search</button>
+        </div>
+        <div id="result" class="result"></div>
+      </div>
+    </div>
         <div class="navigation-content">
           <a href="/calendar.html"><br>Calendar</a>
           <a href="/todolist.html"><br>To-Do List</a>
@@ -126,7 +125,27 @@
               <button id="button-reset">Reset</button>
               </div>               
           </div>
+          <div id="pomodoro-app">
+            <div id="container">
+              <div id="timer">
+                <div id="time">
+                  <span id="minutes">25</span>
+                  <span id="colon">:</span>
+                  <span id="seconds">00</span>
+                </div>
+                <div id="filler"></div>
+              </div>
+          
+              <div id="buttons">
+                <button id="work">Work</button>
+                <button id="shortBreak">Short Break</button>
+                <button id="longBreak">Long Break</button>
+                <button id="stop">Stop</button>
+              </div>
+            </div>
+          </div>
       </section></main></div>
+
     </section>
       
       

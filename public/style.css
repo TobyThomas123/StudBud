@@ -136,7 +136,7 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
 }
 
 .container-calendar {
-  background: #ffffff;
+
   padding: 15px;
   max-width: auto;
   max-height: auto;
@@ -149,7 +149,7 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   display: inline-block;
   zoom: 1;
   background: #00a2b7;
-  color: #fff;
+  color: rgb(0, 0, 0);
   border: 1px solid #0aa2b5;
   border-radius: 4px;
   padding: 5px 10px;
@@ -163,7 +163,7 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
 
 .table-calendar td, .table-calendar th {
   padding: 5px;
-  border: 1px solid #e2e2e2;
+  border: 1px solid #000000;
   text-align: center;
   vertical-align: top;
 }
@@ -209,7 +209,7 @@ color: green;
 
 .footer-container-calendar {
   margin-top: 1em;
-  border-top: 1px solid #dadada;
+  border-top: 1px solid #0d4054;
   padding: 10px 0;
 }
 
@@ -217,7 +217,7 @@ color: green;
   cursor: pointer;
   display: inline-block;
   zoom: 1;
-  background: #ffffff;
+  background: #00BCD4;
   color: #585858;
   border: 1px solid #bfc5c5;
   border-radius: 3px;
