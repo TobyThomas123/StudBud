@@ -78,10 +78,6 @@
   padding: 0;
 }
 
-:not(i) {
-  font-family: Poppins, sans-serif;
-}
-
 body {
   background-color: #ae9cff;
 }
@@ -1485,7 +1481,6 @@ nav.navbar .navigation-content a {
 
   html {
     color: #444;
-    font-family: sans-serif;
     font-size: 15px;
     line-height: 1.4;
   }

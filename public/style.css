@@ -155,6 +155,33 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   padding: 5px 10px;
 }
 
+.button-start {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    background: #00a2b7;
+    color: rgb(0, 0, 0);
+    border: 1px solid #0aa2b5;
+    border-radius: 4px;
+    padding: 5px 10px;
+  }
+
+  .button{
+    border-radius: 5px;
+    border: solid 1px white;
+    text-decoration:none;
+    cursor:pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+     outline: none;
+     cursor: pointer;
+      background-color: white;
+
+      }
+    
+
 .table-calendar {
   border-collapse: collapse;
   width: 100%;
@@ -361,12 +388,12 @@ html, body , .container {
     height: fit-content;
     margin: 0;
   }
-  
+/*   
   .button {
     fill: #212020;
     height: 50px;
     border: black;
-  }
+  }*/
   
   h1 {
     font-size: 48px;
