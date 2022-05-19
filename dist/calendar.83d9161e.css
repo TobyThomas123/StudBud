@@ -8,6 +8,11 @@
   margin-top: 200px;
 }
 
+.label {
+  color: #fff;
+  font-size: 1.2vh;
+}
+
 body {
   background-color: #90ee90;
   transition: background-color .5s;
@@ -666,7 +671,7 @@ textarea.input {
 }
 
 .covey-section {
-  color: #000;
+  color: #fff;
   width: auto;
   height: auto;
   opacity: .9;
@@ -674,6 +679,7 @@ textarea.input {
   border-radius: 20px;
   margin: 5% 5% 0;
   padding: 10px 40px;
+  font-size: 1.2vh;
   text-decoration-color: #000;
   display: flex;
   left: 5%;

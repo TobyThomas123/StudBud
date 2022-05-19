@@ -44,16 +44,55 @@
   <!-- main information box -->
   <main class="Main">
     <section class="covey-section">
-      
 
-     
+      <form id="taskform">
+        <label for="task">Task:</label>
+        <input type="text" name="task" id="taskInput">
+  
+        <br>
+      <!-- Date input -->
+        <label for="dueDate">Due Date: </label>
+        <input type="date" name="dueDate" id="dueDateInput">
+        
+      <!-- Time input -->
+      <label for="completionTime"></label>
+        <input type="time" name="completionTime" id="completionTimeInput">
+  
+        <br>
+  
+      <label for="estimatedTime">Estimated completion time (in mins):</label>
+      <input type="number" name="estimatedTime" id="estimatedTimeInput">
+      <!-- Priority -->
+      <br>
+  
+      <label for="importance">Task Importance:</label>
+      <select name="importance" id="importanceInput">
+        <option value="">Select one</option>
+        <option value="Low">Less Important</option>
+        <option value="High">More Important</option>
+      </select>
+  
+      <br>
+      <label for="urgency">Task Urgency:</label>
+      <select name="urgency" id="urgencyInput">
+        <option value="">Select one</option>
+        <option value="low">Not Urgent</option>
+        <option value="high">Urgent</option>
+      </select>
+  
+      <br>
+  
+        <button type="submit">Submit</button>
+      </form>
+      <ul id="tasklist">
+      </ul>
     </section>
       
       
      
     </div>
   </main>
-  <script src="script.js"></script>
+  <script src="todolist.js"></script>
 </body>
 
 </html>

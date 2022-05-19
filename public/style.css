@@ -6,6 +6,11 @@
   grid-area: Main;
   margin-top: 200px;
 }
+
+.label {
+color: white;
+font-size: 1.2vh;
+}
 /* MUSIC PLAYER */
 body {
   background-color: lightgreen;
@@ -779,7 +784,8 @@ html, body , .container {
 
   .covey-section {
     background-color: #212020;
-    color: black;
+    color: white;
+    font-size: 1.2vh;
     text-decoration-color: black;
     left: 5%;
     right: 5%;

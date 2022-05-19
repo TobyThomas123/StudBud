@@ -1,3 +1,4 @@
+// timer
 window.onload = function() {
     var seconds = 00;
     var tens = 00;
@@ -46,10 +47,9 @@ currentMonth = today.getMonth();
 currentYear = today.getFullYear();
 selectYear = document.getElementById("year");
 selectMonth = document.getElementById("month");
-createYear = generate_year_range(1970, 2050);
-/** or
- * createYear = generate_year_range( 1970, currentYear );
- */ document.getElementById("year").innerHTML = createYear;
+// createYear = generate_year_range(1970, 2050);
+createYear = generate_year_range(1970, currentYear);
+document.getElementById("year").innerHTML = createYear;
 var calendar = document.getElementById("calendar");
 var lang = calendar.getAttribute('data-lang');
 var months = "";
@@ -190,6 +190,38 @@ function showCalendar(month, year) {
 }
 function daysInMonth(iMonth, iYear) {
     return 32 - new Date(iYear, iMonth, 32).getDate();
+}
+//Dictionary
+const url = "https://api.dictionaryapi.dev/api/v2/entries/en/";
+const result = document.getElementById("result");
+const sound = document.getElementById("sound");
+const btn = document.getElementById("search-btn");
+btn.addEventListener("click", ()=>{
+    let inpWord = document.getElementById("inp-word").value;
+    fetch(`${url}${inpWord}`).then((response)=>{
+        return response.json();
+    }).then((data)=>{
+        result.innerHTML = `
+  <div class="word">
+    <h3>${inpWord}</h3>
+    <button onclick="playSound()"> <i class="fas fa-volume-up"></i></button>
+  </div>
+  <div class="details">
+    <p>${data[0].meanings[0].partOfSpeech}</p>
+    <p>/${data[0].phonetic}/</p>
+  </div>
+  <p class="word-meaning">
+    ${data[0].meanings[0].definitions[0].definition}
+  </p>
+  <p class="word-example">${data[0].meanings[0].definitions[0].example || ""}</p>
+  `;
+        sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
+    }).catch((error)=>{
+        result.innerHTML = `<h3 class="error">Couldn't Find The Word!</h3>`;
+    });
+});
+function playSound() {
+    sound.play();
 }
 
 //# sourceMappingURL=calendar.f3bd186e.js.map
